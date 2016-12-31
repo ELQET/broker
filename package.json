@@ -1,0 +1,20 @@
+{
+  "name": "broker",
+  "version": "1.0.0",
+  "description": "Trading simulator based on MA and EMA values calculated from Kraken OHLC data",
+  "main": "broker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ELQET/broker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ELQET/broker/issues"
+  },
+  "homepage": "https://github.com/ELQET/broker#readme"
+}
