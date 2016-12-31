@@ -13,6 +13,14 @@ console.log = function(d) {
   log_stdout.write(util.format(d) + '\n');
 };
 
+var log_test = "App started at " + getDateTime() + "\r\n"; 
+	fs.appendFile("broker.log", log_test, function(err) {
+		if(err) {
+			console.log(err);
+			process.exit(1);
+		}
+	});
+
 //chart data
 var MApoints = []; 
 var EMApoints = [];
