@@ -443,10 +443,6 @@ if((!argv.help) && (!argv.h)) {
 		console.log(' ');
 		console.log('RUNNING WITH TRADING !!!');
 		console.log(' ');
-	} else {
-		getMA_EMA(epoch,time_step_in_minutes,ma_count,ema_count, function(){
-			console.log('Done.');
-		}); //1451606400, 1440, 30, 3
 	}
 
 	http.createServer(function (req, response) {
